@@ -26,7 +26,6 @@
         "source": "https://github.com/hamedshahien/yii2-translate-panel"
     },
     "require": {
-        "yiisoft/yii2": "~2",
         "zelenin/yii2-i18n-module": "0.1.*",
         "rmrevin/yii2-fontawesome": "*",
         "uran1980/yii2-igrowl-widget": "*",

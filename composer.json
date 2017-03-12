@@ -28,10 +28,10 @@
     "require": {
         "zelenin/yii2-i18n-module": "0.1.*",
         "rmrevin/yii2-fontawesome": "*",
-        "uran1980/yii2-igrowl-widget": "*",
-        "uran1980/yii2-chosen-select": "*",
-        "uran1980/yii2-bootstrap-confirmation": "*",
-        "uran1980/yii2-jquery-essential": "*"
+        "hamedshahien/yii2-igrowl-widget": "*",
+        "hamedshahien/yii2-chosen-select": "*",
+        "hamedshahien/yii2-bootstrap-confirmation": "*",
+        "hamedshahien/yii2-jquery-essential": "*"
     },
     "autoload": {
         "psr-4": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\models\search;
+namespace hamedshahien\yii\modules\i18n\models\search;
 
 use Yii;
 use yii\data\ActiveDataProvider;
@@ -11,8 +11,8 @@ use yii\helpers\FileHelper;
 use yii\helpers\VarDumper;
 use yii\i18n\GettextPoFile;
 use yii\helpers\Json;
-use uran1980\yii\modules\i18n\Module;
-use uran1980\yii\modules\i18n\models\SourceMessage;
+use hamedshahien\yii\modules\i18n\Module;
+use hamedshahien\yii\modules\i18n\models\SourceMessage;
 use Zelenin\yii\modules\I18n\models\Message;
 
 class SourceMessageSearch extends SourceMessage

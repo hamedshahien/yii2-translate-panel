@@ -1,6 +1,6 @@
 <?php
 
-namespace uran1980\yii\modules\i18n;
+namespace hamedshahien\yii\modules\i18n;
 
 use Yii;
 
@@ -15,6 +15,6 @@ class Module extends \yii\base\Module
 
     public static function t($message, $params = [], $language = null)
     {
-        return Yii::t('uran1980\yii\modules\i18n', $message, $params, $language);
+        return Yii::t('hamedshahien\yii\modules\i18n', $message, $params, $language);
     }
 }

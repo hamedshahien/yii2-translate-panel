@@ -1,8 +1,8 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\components\grid;
+namespace hamedshahien\yii\modules\i18n\components\grid;
 
-use uran1980\yii\modules\i18n\components\widgets\LinkPager;
+use hamedshahien\yii\modules\i18n\components\widgets\LinkPager;
 use yii\helpers\ArrayHelper;
 
 class GridView extends \yii\grid\GridView

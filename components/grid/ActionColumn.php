@@ -1,8 +1,8 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\components\grid;
+namespace hamedshahien\yii\modules\i18n\components\grid;
 
-use uran1980\yii\modules\i18n\Module;
+use hamedshahien\yii\modules\i18n\Module;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\controllers;
+namespace hamedshahien\yii\modules\i18n\controllers;
 
 use Yii;
 use yii\base\Model;
-use uran1980\yii\modules\i18n\Module;
-use uran1980\yii\modules\i18n\models\search\SourceMessageSearch;
-use uran1980\yii\modules\i18n\helpers\AppHelper;
+use hamedshahien\yii\modules\i18n\Module;
+use hamedshahien\yii\modules\i18n\models\search\SourceMessageSearch;
+use hamedshahien\yii\modules\i18n\helpers\AppHelper;
 use yii\helpers\Html;
 
 class DefaultController extends \Zelenin\yii\modules\I18n\controllers\DefaultController

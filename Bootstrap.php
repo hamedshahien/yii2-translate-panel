@@ -1,6 +1,6 @@
 <?php
 
-namespace uran1980\yii\modules\i18n;
+namespace hamedshahien\yii\modules\i18n;
 
 use Yii;
 use yii\base\BootstrapInterface;

@@ -1,12 +1,12 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\models;
+namespace hamedshahien\yii\modules\i18n\models;
 
 use yii\base\InvalidConfigException;
 use Yii;
 use yii\db\ActiveRecord;
-use uran1980\yii\modules\i18n\Module;
-use uran1980\yii\modules\i18n\models\query\SourceMessageQuery;
+use hamedshahien\yii\modules\i18n\Module;
+use hamedshahien\yii\modules\i18n\models\query\SourceMessageQuery;
 use Zelenin\yii\modules\I18n\models\Message;
 
 /**

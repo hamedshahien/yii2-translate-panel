@@ -22,13 +22,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require uran1980/yii2-translate-panel "dev-master"
+php composer.phar require hamedshahien/yii2-translate-panel "dev-master"
 ```
 
 or add
 
 ```
-"uran1980/yii2-translate-panel": "dev-master"
+"hamedshahien/yii2-translate-panel": "dev-master"
 ```
 
 to the require section of your ```composer.json```
@@ -49,7 +49,7 @@ return [
             'showScriptName'    => false, // false - means that index.php will not be part of the URLs
         ],
         'i18n' => [
-            'class'      => uran1980\yii\modules\i18n\components\I18N::className(),
+            'class'      => hamedshahien\yii\modules\i18n\components\I18N::className(),
             'languages'  => ['en', 'de', 'fr', 'it', 'es', 'pt', 'ru'],
             'format'     => 'db',
             'sourcePath' => [
@@ -80,9 +80,9 @@ return [
     'modules' => [
         ...
         'i18n' => [
-            'class' => uran1980\yii\modules\i18n\Module::className(),
+            'class' => hamedshahien\yii\modules\i18n\Module::className(),
             'controllerMap' => [
-                'default' => uran1980\yii\modules\i18n\controllers\DefaultController::className(),
+                'default' => hamedshahien\yii\modules\i18n\controllers\DefaultController::className(),
             ],
             // example for set access control to module (if required):
             'as access' => [
@@ -106,7 +106,7 @@ return [
 Run:
 
 ```
-php yii migrate --migrationPath=@uran1980/yii/modules/i18n/migrations
+php yii migrate --migrationPath=@hamedshahien/yii/modules/i18n/migrations
 ```
 
 Go to ```http://backend.yourdomain.com/translations``` for translating your messages
@@ -130,10 +130,10 @@ where ```@common/messages``` is path for app translations
 Run:
 
 ```
-php yii i18n/export @uran1980/yii/modules/i18n/messages uran1980/modules/i18n
+php yii i18n/export @hamedshahien/yii/modules/i18n/messages hamedshahien/modules/i18n
 ```
 
-where ```@uran1980/yii/modules/i18n/messages``` is path for app translations and ```uran1980/modules/i18n``` is translations category in DB
+where ```@hamedshahien/yii/modules/i18n/messages``` is path for app translations and ```hamedshahien/modules/i18n``` is translations category in DB
 
 
 ### Using ```yii``` category with DB
@@ -154,4 +154,4 @@ See [Yii2 i18n guide](https://github.com/yiisoft/yii2/blob/master/docs/guide/tut
 
 ## Author
 
-[Ivan Yakovlev](https://github.com/uran1980/), e-mail: [uran1980@gmail.com](mailto:uran1980@gmail.com)
+[Ivan Yakovlev](https://github.com/hamedshahien/), e-mail: [hamedshahien@gmail.com](mailto:hamedshahien@gmail.com)

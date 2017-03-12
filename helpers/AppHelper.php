@@ -1,6 +1,6 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\helpers;
+namespace hamedshahien\yii\modules\i18n\helpers;
 
 use Yii;
 use yii\helpers\ArrayHelper;

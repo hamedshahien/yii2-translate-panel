@@ -1,6 +1,6 @@
 <?php
 
-namespace uran1980\yii\modules\i18n\models\query;
+namespace hamedshahien\yii\modules\i18n\models\query;
 
 use Yii;
 use yii\db\ActiveQuery;
@@ -9,7 +9,7 @@ use Zelenin\yii\modules\I18n\models\Message;
 class SourceMessageQuery extends ActiveQuery
 {
     /**
-     * @return \uran1980\yii\modules\i18n\models\query\SourceMessageQuery
+     * @return \hamedshahien\yii\modules\i18n\models\query\SourceMessageQuery
      */
     public function notTranslated()
     {
@@ -40,7 +40,7 @@ class SourceMessageQuery extends ActiveQuery
     }
 
     /**
-     * @return \uran1980\yii\modules\i18n\models\query\SourceMessageQuery
+     * @return \hamedshahien\yii\modules\i18n\models\query\SourceMessageQuery
      */
     public function translated()
     {
@@ -69,7 +69,7 @@ class SourceMessageQuery extends ActiveQuery
     }
 
     /**
-     * @return \uran1980\yii\modules\i18n\models\query\SourceMessageQuery
+     * @return \hamedshahien\yii\modules\i18n\models\query\SourceMessageQuery
      */
     public function deleted()
     {

@@ -13,8 +13,8 @@ class AppTranslateAsset extends \yii\web\AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'hamedshahien\yii\assets\jQueryEssential\JqueryEssentialAsset',
+        'uran1980\yii\assets\jQueryEssential\JqueryEssentialAsset',
         'hamedshahien\yii\modules\i18n\assets\AppAjaxButtonsAsset',
-        'hamedshahien\yii\widgets\chosen\ChosenSelectAsset',
+        'uran1980\yii\widgets\chosen\ChosenSelectAsset',
     ];
 }

@@ -245,3 +245,4 @@ AppTranslateAsset::register($this);
         ],
     ]); ?>
 </div>
+<?php //echo ScrollToTop::widget();

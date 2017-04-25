@@ -421,7 +421,7 @@ class SourceMessageSearch extends SourceMessage
 
         foreach (array_diff(array_keys($current), array_keys($messages)) as $category) {
             if (!in_array($category, Yii::$app->params['ignored_categories_translation'])) {
-            $obsolete += $current[$category];
+                $obsolete += $current[$category];
             }
         }
 

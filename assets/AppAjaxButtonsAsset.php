@@ -11,7 +11,7 @@ class AppAjaxButtonsAsset extends \yii\web\AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
-        'hamedshahien\yii\widgets\igrowl\IgrowlAsset',
-        'hamedshahien\yii\bootstrapConfirmation\BootstrapConfirmationAsset',
+        'uran1980\yii\widgets\igrowl\IgrowlAsset',
+        'uran1980\yii\bootstrapConfirmation\BootstrapConfirmationAsset',
     ];
 }
